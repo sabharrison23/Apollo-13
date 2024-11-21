@@ -55,7 +55,6 @@ function setup() {
 function draw() {
     background(20);
     drawBorder();
-  
 
     if (showCover) {
         drawCoverScreen();
@@ -74,8 +73,6 @@ function drawBorder() {
     line(width - 1, 0, width - 1, height);
     line(0, height - 1, width, height - 1);
 }
-
-
 
 function drawStar(x, y, size) {
     fill(255, 223, 0);
